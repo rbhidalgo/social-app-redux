@@ -270,4 +270,11 @@ router.delete('/education/:edu_id', auth, async (req, res) => {
     }
 })
 
+// GET route api/profile/github/:username
+// GET user repos from Github
+// Public
+router.get('/github/:username', async (req, res) => {
+
+})
+
 module.exports = router;
